@@ -16,7 +16,7 @@ pl-pdfgeneration
 Abstract
 --------
 
-An app that takes in prediction results and generates PDF
+This is an app that takes in prediction results and generates a PDF file.
 
 
 Synopsis
@@ -64,7 +64,7 @@ Agruments
 Run
 ----
 
-This ``plugin`` can be run in two modes: natively as a python package or as a containerized docker image.
+This ``plugin`` can be run in two modes: natively as a Python package or as a containerized Docker image.
 
 
 Using ``docker run``
@@ -72,7 +72,7 @@ Using ``docker run``
 
 To run using ``docker``, be sure to assign an "input" directory to ``/incoming`` and an output directory to ``/outgoing``. *Make sure that the* ``$(pwd)/out`` *directory is world writable!*
 
-Now, prefix all calls with 
+Prefix all calls with: 
 
 .. code:: bash
 
